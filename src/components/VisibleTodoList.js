@@ -1,6 +1,8 @@
 import React from 'react';
 import SingleTodo from './SingleTodo'
+import { observer } from 'mobx-react';
 
+@observer
 export default class VisibleTodoList extends React.Component {
     render() {
         return (
